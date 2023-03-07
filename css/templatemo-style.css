@@ -466,12 +466,12 @@ section.featured-food {
 
 
 
-section.our-blog {
+section.main-menu {
 	background-color: #f2f6ff;
 	padding: 100px 0px 70px 0px;
 }
 
-.our-blog .heading h2 {
+.main-menu .heading h2 {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 80px;
@@ -485,11 +485,13 @@ section.our-blog {
 .blog-post img {
 	width: 50%;
 	overflow: hidden;
+	
 }
 
 .blog-post {
 	margin-bottom: 30px;
-	display: inline-block;
+	display: flex;
+	background-size: cover;
 }
 
 .blog-post .right-content {
@@ -497,6 +499,7 @@ section.our-blog {
 	width: 50%;
 	float: right;
 	padding: 20px;
+	min-height: 100%;
 }
 
 .blog-post .right-content h4 {
