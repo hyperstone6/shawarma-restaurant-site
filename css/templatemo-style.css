@@ -1129,5 +1129,8 @@ section.map #map {
 	}
 }
 @media (max-width: 480px) {
-
+	.menu-item {
+		flex-direction: column;
+		margin: 0 2rem;
+	}
 }
