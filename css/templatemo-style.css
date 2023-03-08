@@ -306,31 +306,6 @@ section.services {
 	margin-bottom: 0px;
 }
 
-
-section#book-table {
-	padding: 80px 0px;
-	background-image: url(../img/book-bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	text-align: center;
-}
-
-#book-table .heading h2 {
-	margin-top: 0px;
-	margin-bottom: 70px;
-	font-size: 22px;
-	font-weight: 700;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	color: #fff;
-}
-
-section#book-table .left-image img {
-	width: 100%;
-	overflow: hidden;
-}
-
 .right-info {
 	height: 282px;
 	background-color: #fff;
@@ -383,27 +358,6 @@ section#book-table .left-image img {
 	text-decoration: none;
 	letter-spacing: 0.5px;
 }
-
-
-
-section.get-app {
-	background-color: #f2745f;
-	text-align: center;
-	padding: 60px 0px;
-}
-
-.get-app .heading h2 {
-	margin-top: 0px;
-	margin-bottom: 30px;
-	font-size: 22px;
-	font-weight: 700;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	color: #fff;
-}
-
-
-
 
 section.featured-food {
 	padding: 100px 0px;
@@ -468,12 +422,12 @@ section.featured-food {
 
 
 
-section.our-blog {
+section.main-menu {
 	background-color: #f2f6ff;
 	padding: 100px 0px 70px 0px;
 }
 
-.our-blog .heading h2 {
+.main-menu .heading h2 {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 80px;
@@ -484,19 +438,19 @@ section.our-blog {
 	color: #121212;
 }
 
-.blog-post img {
+.menu-item img {
 	width: 50%;
 	overflow: hidden;
 	
 }
 
-.blog-post {
+.menu-item {
 	margin-bottom: 30px;
 	display: flex;
 	background-size: cover;
 }
 
-.blog-post .right-content {
+.menu-item .right-content {
 	background-color: #fff;
 	width: 50%;
 	float: right;
@@ -504,7 +458,7 @@ section.our-blog {
 	min-height: 100%;
 }
 
-.blog-post .right-content h4 {
+.menu-item .right-content h4 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 8px;
@@ -513,14 +467,14 @@ section.our-blog {
 	color: #121212;
 }
 
-.blog-post .right-content span {
+.menu-item .right-content span {
 	font-size: 13px;
 	color: #7a7a7a;
 	display: inline-block;
 	margin-bottom: 18px;
 }
 
-.blog-post .right-content .text-button a {
+.menu-item .right-content .text-button a {
 	font-size: 13px;
 	font-weight: 500;
 	color: #f2745f;
@@ -530,7 +484,7 @@ section.our-blog {
 	display: inline-block;
 }
 
-.blog-post .date {
+.menu-item .date {
 	font-size: 17px;
 	color: #f2745f;
 	font-weight: 500;
@@ -545,7 +499,7 @@ section.our-blog {
 
 
 
-section.sign-up {
+section.contact-us {
 	padding: 80px 0px;
 	background-image: url(../img/signup-bg.jpg);
 	background-repeat: no-repeat;
@@ -555,7 +509,7 @@ section.sign-up {
 }
 
 
-.sign-up .heading h2 {
+.contact-us .heading h2 {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 40px;
@@ -566,7 +520,7 @@ section.sign-up {
 	color: #fff;
 }
 
-.sign-up button {
+.contact-us button {
 	margin-left: -30px;
 	display: inline-block;
 	background-color: transparent;
@@ -581,7 +535,7 @@ section.sign-up {
 	border: 1px solid #fff;
 }
 
-.sign-up input {
+.contact-us input {
 	margin-right: -30px;
 	height: 44px;
 	border: 3px;
@@ -1015,20 +969,20 @@ section.map #map {
 	.right-info button {
 		margin-top: 30px;
 	}
-	.blog-post img {
+	.menu-item img {
 		width: 100%;
 		overflow: hidden;
 	}
-	.blog-post {
+	.menu-item {
 		margin-bottom: 30px;
 	}
-	.blog-post .right-content {
+	.menu-item .right-content {
 		background-color: #fff;
 		width: 100%;
 		float: none;
 		padding: 20px;
 	}
-	.sign-up button {
+	.contact-us button {
 		margin-left: 0px;
 		margin-top: 20px;
 	}
@@ -1127,22 +1081,22 @@ section.map #map {
 	.right-info button {
 		margin-top: 30px;
 	}
-	.blog-post img {
+	.menu-item img {
 		width: 100%;
 		overflow: hidden;
 	}
 
-	.blog-post {
+	.menu-item {
 		margin-bottom: 30px;
 	}
 
-	.blog-post .right-content {
+	.menu-item .right-content {
 		background-color: #fff;
 		width: 100%;
 		float: none;
 		padding: 20px;
 	}
-	.sign-up button {
+	.contact-us button {
 		margin-left: 0px;
 		margin-top: 20px;
 	}
