@@ -143,21 +143,6 @@ p {
 	background-color: #f2745f;
 }
 
-/* bootstrap.min.css:5
-.navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 15px!important;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-} */
-
-
 .banner {
 	padding: 180px 0px;
 	background-image: url(../img/banner-bg2.png);

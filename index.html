@@ -7,6 +7,10 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta
+      name="description"
+      content="Arabic cuisine restaurant in Dundas St. Toronto, Ontario specializing in flafel wraps, lamb, beef, chicken, and fish food"
+    />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
@@ -30,7 +34,7 @@
   <body>
     <div class="header">
       <div class="container">
-        <a href="#" class="navbar-brand scroll-top">Dundas Shawarma</a>
+        <h1 class="navbar-brand scroll-top">Dundas Shawarma</h1>
         <nav class="navbar navbar-inverse" role="navigation">
           <div class="navbar-header">
             <button
@@ -189,8 +193,7 @@
                   Roasted chicken wrapped served Arabian pita bread with your
                   choice of salads and condiments.
                 </p>
-                <div class="text-button">
-                </div>
+                <div class="text-button"></div>
               </div>
             </div>
           </div>
@@ -204,8 +207,7 @@
                   Roasted chicken wrapped served Arabian pita bread with your
                   choice of salads and condiments.
                 </p>
-                <div class="text-button">
-                </div>
+                <div class="text-button"></div>
               </div>
             </div>
           </div>
@@ -219,8 +221,7 @@
                   Roasted chicken wrapped served Arabian pita bread with your
                   choice of salads and condiments.
                 </p>
-                <div class="text-button">
-                </div>
+                <div class="text-button"></div>
               </div>
             </div>
           </div>
@@ -234,8 +235,7 @@
                   Roasted chicken wrapped served Arabian pita bread with your
                   choice of salads and condiments.
                 </p>
-                <div class="text-button">
-                </div>
+                <div class="text-button"></div>
               </div>
             </div>
           </div>
@@ -323,45 +323,5 @@
     </script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
-
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-        // navigation click actions
-        $(".scroll-link").on("click", function (event) {
-          event.preventDefault();
-          var sectionID = $(this).attr("data-id");
-          scrollToID("#" + sectionID, 750);
-        });
-        // scroll to top action
-        $(".scroll-top").on("click", function (event) {
-          event.preventDefault();
-          $("html, body").animate({ scrollTop: 0 }, "slow");
-        });
-        // mobile nav toggle
-        $("#nav-toggle").on("click", function (event) {
-          event.preventDefault();
-          $("#main-nav").toggleClass("open");
-        });
-      });
-      // scroll function
-      function scrollToID(id, speed) {
-        var offSet = 0;
-        var targetOffset = $(id).offset().top - offSet;
-        var mainNav = $("#main-nav");
-        $("html,body").animate({ scrollTop: targetOffset }, speed);
-        if (mainNav.hasClass("open")) {
-          mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-          mainNav.removeClass("open");
-        }
-      }
-      if (typeof console === "undefined") {
-        console = {
-          log: function () {},
-        };
-      }
-    </script>
   </body>
 </html>
