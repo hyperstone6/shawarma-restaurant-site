@@ -94,6 +94,7 @@ p {
 	position: relative;
 	padding: 40px 0px;
 	height: auto!important;
+	line-height: 1;
 }
 
 #main-nav {
@@ -141,7 +142,8 @@ p {
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background-color: #f2745f;
 }
-bootstrap.min.css:5
+
+/* bootstrap.min.css:5
 .navbar-toggle {
     position: relative;
     float: right;
@@ -153,7 +155,7 @@ bootstrap.min.css:5
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-}
+} */
 
 
 .banner {
@@ -466,12 +468,12 @@ section.featured-food {
 
 
 
-section.main-menu {
+section.our-blog {
 	background-color: #f2f6ff;
 	padding: 100px 0px 70px 0px;
 }
 
-.main-menu .heading h2 {
+.our-blog .heading h2 {
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 80px;
